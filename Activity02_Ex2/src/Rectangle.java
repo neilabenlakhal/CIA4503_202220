@@ -3,6 +3,10 @@
  *
  * @author nlakhal
  */
+
+// class can extend and abstract class and implement an interface
+// extends must come before implements
+
 public class Rectangle  extends GeometricObject implements Colorable {
 
     private double width;

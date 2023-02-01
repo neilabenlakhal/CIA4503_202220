@@ -55,7 +55,7 @@ System.out.println("Original employee dep before change  :   "+original.getDepar
 
 cloned.getDepartment().setName("Finance");      
 System.out.println("Original employee dep After  change done with clone:   "+original.getDepartment().getName());
-
+System.out.println("cloned employee dep After  change done with clone:   "+cloned.getDepartment().getName());
 
 
 

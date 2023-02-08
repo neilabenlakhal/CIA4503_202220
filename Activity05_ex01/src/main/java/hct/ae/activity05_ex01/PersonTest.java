@@ -10,7 +10,15 @@ package hct.ae.activity05_ex01;
  */
 
 public class PersonTest {
+    
+    
+    
     public static void main(String[] args) throws CloneNotSupportedException {
+    
+        
+        
+        
+        
         Name name = new Name("Ali", "Mohammed");
         Address address = new Address("Rabdan Street", "Abu Dhabi");
         Person p1 = new Person(name, address);

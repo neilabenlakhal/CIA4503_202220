@@ -12,6 +12,10 @@ class Name {
   private String firstName;
   private String lastName;
 
+    public Name() {
+    }
+
+  //constructor parameterized 
   public Name(String firstName, String lastName) {
     this.firstName = firstName;
     this.lastName = lastName;

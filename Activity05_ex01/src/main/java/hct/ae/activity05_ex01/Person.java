@@ -42,4 +42,9 @@ class Person implements Cloneable {
 	 protected  Object clone() throws CloneNotSupportedException  {  
 		return super.clone();  //all classes are child of the Object class in java
 	}
+
+    @Override
+    public String toString() {
+        return "Person{" + "name=" + name + ", address=" + address + '}';
+    }
 }
